@@ -54,7 +54,7 @@ nav a:hover, footer a:hover {
   font-family: var(--heading);
   font-size: 2rem;
   border-radius: 4px;
-  width: 90%;
+  width: 20%;
   box-sizing: border-box;
   position: relative;
   z-index: 1;
