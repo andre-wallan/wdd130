@@ -9,6 +9,11 @@
   --font-body: 'Roboto', sans-serif;
 }
 
+/* Global Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* General Styles */
 body {
   font-family: var(--font-body);
@@ -30,16 +35,24 @@ header img {
 }
 
 nav a {
-  color: white;
+  color: #fff;
   margin-left: 1rem;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--accent-color);
+  outline: none;
 }
 
 /* Hero Section */
 .hero {
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
 .hero img {
@@ -52,21 +65,25 @@ nav a {
   position: absolute;
   top: 10%;
   left: 5%;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 0.5rem 1rem;
   font-family: var(--font-heading);
   font-size: 2rem;
+  border-radius: 4px;
 }
 
 .hero article {
   position: absolute;
   bottom: 10%;
   left: 5%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 1rem;
   max-width: 300px;
   text-align: left;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
 }
 
 .hero article img {
@@ -74,6 +91,26 @@ nav a {
   width: 60px;
   height: auto;
   margin-left: 1rem;
+  border-radius: 50%;
+}
+
+/* Responsive Hero */
+@media (max-width: 600px) {
+  .hero h1,
+  .hero article {
+    position: static;
+    display: block;
+    margin: 1rem auto;
+    width: 90%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .hero article img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
 }
 
 /* Sections */
@@ -91,12 +128,14 @@ main section img {
   height: auto;
   margin: 0.5rem;
   border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  display: inline-block;
 }
 
 /* Footer */
 footer {
   background-color: var(--primary-color);
-  color: white;
+  color: #fff;
   padding: 1rem;
   text-align: center;
 }
@@ -109,4 +148,12 @@ footer img {
 
 footer a {
   text-decoration: none;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--accent-color);
+  outline: none;
 }
