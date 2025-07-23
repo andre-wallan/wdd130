@@ -68,9 +68,13 @@ header {
 .hero-text {
   position: absolute;
   color: white;
-  max-width: 400px;
+  width: 100%;
+  left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: none;
 }
 
 .hero-text h1 {
@@ -81,7 +85,7 @@ header {
 
 .hero-text article {
   background-color: rgba(255, 255, 255, 0.85);
-  padding: 2rem;
+  padding: 1rem;
   color: #222;
   border-radius: 4px;
 }
