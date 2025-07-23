@@ -90,7 +90,7 @@ header {
 }
 
 .hero-text article img {
-  float: right;
+  float: inline-start;
   width: 60px;
   margin-left: 1rem;
 }
@@ -151,5 +151,5 @@ footer {
 .social-icons img {
   width: 30px;
   height: auto;
-  vertical-align: right;
+  vertical-align: left;
 }
