@@ -87,13 +87,26 @@ header {
   padding: 2rem; 
   color: black;
   border-radius: 5px;
+  /* Add animation for floating text across */
+  position: relative;
+  animation: float-across 8s linear infinite;
+}
+
+@keyframes float-across {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
 .hero-text article img {
-  float: inline-start;
+  float: right;
   width: 60px;
   margin-left: 1rem;
 }
+
 
 /* History Section */
 .history-section {
@@ -133,17 +146,25 @@ header {
 footer {
   background-color: var(--primary-color);
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
-  padding: 1rem;
+  padding: 1rem 2rem;
   margin-top: 2rem;
 }
 
+.footer-text {
+  font-size: 1rem;
+}
+
 .social-icons {
-  margin-top: 0.5rem;
+  display: flex;
+  align-items: right;
+  gap: 0.5rem;
 }
 
 .social-icons a {
-  margin: 0 0.5rem;
   display: inline-block;
   text-decoration: none;
 }
@@ -151,5 +172,5 @@ footer {
 .social-icons img {
   width: 30px;
   height: auto;
-  vertical-align: left;
+}
 }
