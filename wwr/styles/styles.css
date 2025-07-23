@@ -54,7 +54,7 @@ header {
 
 /* Hero Section */
 .hero {
-  position: 60%;
+  position: absolute;
   width: 100%;
   height: auto;
 }
