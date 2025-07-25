@@ -22,7 +22,6 @@ h1 {
 
 /* Navigation as a list */
 .navigation {
-.navigation {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -70,7 +69,6 @@ main {
 
 /* Style for the aside element */
 aside {
-  width: 250px;
 aside {
   width: 250px;
   margin: 20px auto;
@@ -80,7 +78,6 @@ aside {
   color: #333;
   box-sizing: border-box;
 }
-aside img {
   width: 200px;
   height: auto;
   display: block;
