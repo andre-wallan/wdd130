@@ -18,18 +18,16 @@ header {
 /* Heading styles */
 h1 {
   font-size: 2rem;
-  font-family: Acme, Arial, sans-serif;
 }
 
 /* Navigation as a list */
+.navigation {
 .navigation {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  font-family: Arial, sans-serif;
 }
-
 .navigation li {
   flex: 1 1 auto;
 }
@@ -73,16 +71,15 @@ main {
 /* Style for the aside element */
 aside {
   width: 250px;
+aside {
+  width: 250px;
   margin: 20px auto;
   border: 1px solid #ccc;
   padding: 15px;
   background-color: #f0f8ff;
   color: #333;
-  font-family: Arial, sans-serif;
   box-sizing: border-box;
 }
-
-/* Make the aside image 200px wide and keep aspect ratio */
 aside img {
   width: 200px;
   height: auto;
@@ -108,10 +105,10 @@ p {
 footer {
   margin-top: 30px;
   border-top: 2px solid #333;
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #333;
   text-align: center;
   padding-top: 10px;
-  font-family: Arial, sans-serif;
   color: #555;
 }
-
-/* Old nav styles removed in favor of .navigation styles */
