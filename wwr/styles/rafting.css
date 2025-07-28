@@ -145,6 +145,7 @@ footer {
 
 .social-icons {
   margin-top: 0.5rem;
+  justify-content: right;
 }
 
 .social-icons a {
