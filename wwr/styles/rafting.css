@@ -144,15 +144,26 @@ footer {
 }
 
 .social-icons {
-  margin-top: 0.5rem;
-  justify-content: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .social-icons a {
-  margin: 0 0.5rem;
   display: inline-block;
 }
 
 .social-icons img {
   width: 30px;
 }
+
+/* Ensure footer is positioned relative for absolute icons */
+footer {
+  position: relative;
+}
+
