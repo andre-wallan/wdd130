@@ -97,28 +97,20 @@ nav a:hover {
 }
 
 /* Employee Profiles */
-.profiles {
-  display: flex;
+.employee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: space-around;
   margin-top: 1rem;
-}
-
-.profiles figure {
-  width: 150px;
+  justify-items: center;
   text-align: center;
 }
 
-.profiles img {
+.employee-grid img {
   width: 100%;
-  border-radius: 50%;
-  border: 3px solid #003049;
-}
-
-.profiles figcaption {
-  margin-top: 0.5rem;
-  font-weight: bold;
+  max-width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 /* Contact Form */
