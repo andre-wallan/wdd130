@@ -96,21 +96,58 @@ nav a:hover {
   margin-top: 1rem;
 }
 
-/* Employee Profiles */
-.employee-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-  justify-items: center;
-  text-align: center;
+/* Team Profiles Styling */
+.profiles-column {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
-.employee-grid img {
+.profiles-column h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #003049;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.profiles figure {
+  margin: 0;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 280px;
   width: 100%;
-  max-width: 180px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.profiles figure:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.profiles img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.profiles figcaption {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.4;
 }
 
 /* Contact Form */
@@ -204,7 +241,7 @@ footer {
   transform: scale(1.2);
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
   .contact-info {
     grid-template-columns: 1fr;
@@ -224,6 +261,21 @@ footer {
   }
 
   .profiles {
-    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .profiles-column h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profiles-column {
+    padding: 0 0.5rem;
+  }
+  
+  .profiles figure {
+    padding: 1rem;
   }
 }
