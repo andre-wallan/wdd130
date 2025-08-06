@@ -33,14 +33,14 @@ h1 {
 
 .navigation a {
   display: block;
-  color: navy;
+  color: #003366; /* Improved contrast */
   padding: 20px;
   text-decoration: none;
   font-size: 1.2rem;
 }
 
 .navigation a:hover {
-  color: tomato;
+  color: #c0392b; /* Improved contrast */
   font-weight: 700;
   text-decoration: underline;
 }
@@ -55,7 +55,7 @@ article {
   margin: 1em auto;
   border: 1px solid rgb(0 0 0 / 10%);
   padding: 1em;
-  background-color: #ace;
+  background-color: #e6f0fa; /* Improved contrast */
   width: min(600px, 100%);
   font-size: 1.2rem;
 }
@@ -69,19 +69,15 @@ main {
 
 /* Style for the aside element */
 aside {
-aside {
-  width: 250px;
-  margin: 20px auto;
+  width: 200px;
+  margin: 20px auto 10px auto;
   border: 1px solid #ccc;
   padding: 15px;
-  background-color: #f0f8ff;
-  color: #333;
+  background-color: #e3eaf6; /* Improved contrast */
+  color: #222; /* Improved contrast */
   box-sizing: border-box;
-}
-  width: 200px;
-  height: auto;
   display: block;
-  margin-bottom: 10px;
+  height: auto;
 }
 
 /* More specific selector for profile image inside main */
@@ -102,15 +98,7 @@ p {
 footer {
   margin-top: 30px;
   border-top: 2px solid #333;
-footer {
-  margin-top: 30px;
-  border-top: 2px solid #333;
   text-align: center;
   padding-top: 10px;
-  color: #555;
-}
-
-  text-align: center;
-  padding-top: 10px;
-  color: #555;
+  color: #222; /* Improved contrast */
 }
