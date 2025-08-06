@@ -32,7 +32,7 @@ header {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #e8f5e8;
+  color: #074907;
 }
 
 nav ul {
@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #97d4a0;
+  color: #022b08;
 }
 
 nav a::after {
@@ -60,7 +60,7 @@ nav a::after {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #97d4a0;
+  background-color: #f4f7f4;
   transition: width 0.3s ease;
 }
 
@@ -254,7 +254,7 @@ main {
 .grid-showcase h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #2c5f2d;
+  color: #000a00;
 }
 
 .grid-showcase p {

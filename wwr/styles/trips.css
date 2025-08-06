@@ -33,7 +33,7 @@ header {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #e8f5e8;
+  color: #224222;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -54,13 +54,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #97d4a0;
+  color: #e3ffe8;
   background: rgba(255, 255, 255, 0.1);
 }
 
 nav a.active {
   background: rgba(255, 255, 255, 0.2);
-  color: #97d4a0;
+  color: #d7f8dc;
 }
 
 nav a::after {
@@ -71,7 +71,7 @@ nav a::after {
   bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #97d4a0;
+  background-color: #e4fce4;
   transition: width 0.3s ease;
 }
 
@@ -100,7 +100,7 @@ main {
 
 .hero h1 {
   font-size: 3.5rem;
-  color: #2c5f2d;
+  color: #0b2e0b;
   margin-bottom: 1.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   background: linear-gradient(135deg, #2c5f2d 0%, #4CAF50 100%);
@@ -197,7 +197,7 @@ main {
 /* Button Styles */
 .btn {
   display: inline-block;
-  background: linear-gradient(135deg, #4CAF50 0%, #2e7d32 100%);
+  background: linear-gradient(135deg, #4CAF50 0%, #0b4e0e 100%);
   color: white;
   padding: 15px 35px;
   text-decoration: none;
@@ -220,7 +220,7 @@ main {
 
 /* Footer */
 footer {
-  background: linear-gradient(135deg, #2c5f2d 0%, #1a4c20 100%);
+  background: linear-gradient(135deg, #438a44 0%, #15531c 100%);
   color: white;
   padding: 3rem 2rem;
   text-align: center;
@@ -236,7 +236,7 @@ footer {
 
 footer p {
   font-size: 1rem;
-  color: #e8f5e8;
+  color: #f8fcf8;
 }
 
 .socials {
@@ -267,7 +267,7 @@ footer p {
 /* Price Highlight */
 .trip p:contains("Price") {
   font-size: 1.2rem;
-  color: #2e7d32;
+  color: #0b3b0d;
   font-weight: bold;
   text-align: center;
   background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
