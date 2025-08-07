@@ -204,7 +204,7 @@ main {
 
 /* Call to Action Section */
 .call-to-action {
-    background: linear-gradient(135deg, #eece9b 0%, #ffb300 100%); /* Darker yellow */
+    background: linear-gradient(135deg, #ecb153 0%, #ffb300 100%); /* Darker yellow */
     padding: 3rem 2rem;
     margin: 3rem 0;
     text-align: center;
@@ -215,13 +215,13 @@ main {
 .call-to-action h2 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
-    color: #bf360c; /* Darker orange */
+    color: #da3503; /* Darker orange */
 }
 
 .call-to-action p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    color: #6d4c41; /* Dark brown for contrast */
+    color: #030201; /* Dark brown for contrast */
 }
 
 /* Grid Showcase Section */
