@@ -128,7 +128,7 @@ main {
 /* Button Styles */
 .btn {
     display: inline-block;
-    background: linear-gradient(135deg, #388e3c 0%, #1b5e20 100%); /* Darker green */
+    background: linear-gradient(135deg, #17611b 0%, #09490d 100%); /* Darker green */
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
@@ -204,7 +204,7 @@ main {
 
 /* Call to Action Section */
 .call-to-action {
-    background: linear-gradient(135deg, #fff3e0 0%, #ffb300 100%); /* Darker yellow */
+    background: linear-gradient(135deg, #eece9b 0%, #ffb300 100%); /* Darker yellow */
     padding: 3rem 2rem;
     margin: 3rem 0;
     text-align: center;

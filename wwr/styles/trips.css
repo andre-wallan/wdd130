@@ -251,7 +251,7 @@ footer p {
 
 /* Focus Styles for Accessibility */
 *:focus {
-  outline: 2px solid #2b6cb0;
+  outline: 2px solid #094381;
   outline-offset: 2px;
 }
 
